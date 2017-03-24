@@ -26,7 +26,7 @@ app.post('/listening', function (req, res) {
     res.send({name : "partha"});
 });
 
-app.listen(443);           //listen on 3000 port
+app.listen(3000);           //listen on 3000 port
 //httpsServer.listen(3000);
 
 console.log('application started in port 3000');
