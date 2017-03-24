@@ -29,5 +29,5 @@ app.post('/listening', function (req, res) {
 app.listen(process.env.PORT);           //listen on 3000 port
 //httpsServer.listen(3000);
 
-console.log('application started in port 3000');
+console.log('application started in port ' + process.env.PORT);
 module.exports = app;       // export this module to use this as a dependency in other module
