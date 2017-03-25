@@ -147,7 +147,7 @@ myApp.controller('bannerDetailsController', ['$scope', '$http', function ($scope
             var myLatlng = new google.maps.LatLng(coords.latitide,coords.longitude);
             var marker = new google.maps.Marker({
                 position: myLatlng,
-                label: data.label,
+                label: data.price,
                 map: map
             });
 
